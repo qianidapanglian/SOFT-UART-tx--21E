@@ -95,7 +95,7 @@ void SoftwareUART_Transmit(GPIO_TypeDef* txPort, uint16_t txPin,
     
 //    // 计算半位延时(用于更精确的时序)
 //    uint16_t halfBitDelay = bitDelayMs / 2;
-//    
+//    我改
     for(uint16_t i = 0; i < length; i++)
     {
         uint8_t byte = data[i];
